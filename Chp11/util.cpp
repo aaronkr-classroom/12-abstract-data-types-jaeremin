@@ -8,6 +8,7 @@
 
 #include "analysis.h"
 #include "Student_info.h"
+#include "Vec.h"
 
 using namespace std;
 

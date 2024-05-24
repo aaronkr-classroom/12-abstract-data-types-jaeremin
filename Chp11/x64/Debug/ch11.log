@@ -1,0 +1,239 @@
+﻿  analysis.cpp
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(74,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'Vec<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,18): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,21): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,30): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C3861: 'val': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C2065: 'val': 선언되지 않은 식별자입니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/analysis.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(12,50): error C2039: 'end': 'Vec<double>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(18,5):
+  'Vec<double>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(12,14): error C2672: 'std::find': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(5832,31):
+  '_InIt std::find(_InIt,const _InIt,const _Ty &)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(12,14):
+  	'_InIt std::find(_InIt,const _InIt,const _Ty &)': 3개의 인수가 필요합니다. 2개가 제공되었습니다.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(12,75): error C2039: 'end': 'Vec<double>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(18,5):
+  'Vec<double>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(28,42): error C2039: 'end': 'Vec<Student_info>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(25,30):
+  'Vec<Student_info>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(28,5): error C2672: 'transform': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(3469,21):
+  '_OutIt std::transform(const _InIt1,const _InIt1,const _InIt2,_OutIt,_Fn)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(28,5):
+  	'_OutIt std::transform(const _InIt1,const _InIt1,const _InIt2,_OutIt,_Fn)': 5개의 인수가 필요합니다. 3개가 제공되었습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(3449,21):
+  또는       '_OutIt std::transform(const _InIt,const _InIt,_OutIt,_Fn)'
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(28,5):
+  	'_OutIt std::transform(const _InIt,const _InIt,_OutIt,_Fn)': 4개의 인수가 필요합니다. 3개가 제공되었습니다.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(38,48): error C2039: 'end': 'Vec<double>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(18,5):
+  'Vec<double>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(38,5): error C2672: 'remove_copy': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(4096,21):
+  '_OutIt std::remove_copy(_InIt,_InIt,_OutIt,const _Ty &)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(38,5):
+  	'_OutIt std::remove_copy(_InIt,_InIt,_OutIt,const _Ty &)': 4개의 인수가 필요합니다. 3개가 제공되었습니다.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(50,42): error C2039: 'end': 'Vec<Student_info>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(25,30):
+  'Vec<Student_info>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(50,5): error C2672: 'transform': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(3469,21):
+  '_OutIt std::transform(const _InIt1,const _InIt1,const _InIt2,_OutIt,_Fn)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(50,5):
+  	'_OutIt std::transform(const _InIt1,const _InIt1,const _InIt2,_OutIt,_Fn)': 5개의 인수가 필요합니다. 3개가 제공되었습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(3449,21):
+  또는       '_OutIt std::transform(const _InIt,const _InIt,_OutIt,_Fn)'
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(50,5):
+  	'_OutIt std::transform(const _InIt,const _InIt,_OutIt,_Fn)': 4개의 인수가 필요합니다. 3개가 제공되었습니다.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(57,36): error C2039: 'end': 'Vec<double>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(18,5):
+  'Vec<double>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(57,12): error C2672: 'std::accumulate': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\numeric(44,29):
+  '_Ty std::accumulate(const _InIt,const _InIt,_Ty)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(57,12):
+  	'_Ty std::accumulate(const _InIt,const _InIt,_Ty)': 3개의 인수가 필요합니다. 2개가 제공되었습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\numeric(28,29):
+  또는       '_Ty std::accumulate(const _InIt,const _InIt,_Ty,_Fn)'
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(57,12):
+  	'_Ty std::accumulate(const _InIt,const _InIt,_Ty,_Fn)': 4개의 인수가 필요합니다. 2개가 제공되었습니다.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(67,42): error C2039: 'end': 'Vec<Student_info>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(25,30):
+  'Vec<Student_info>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(67,5): error C2672: 'transform': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(3469,21):
+  '_OutIt std::transform(const _InIt1,const _InIt1,const _InIt2,_OutIt,_Fn)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(67,5):
+  	'_OutIt std::transform(const _InIt1,const _InIt1,const _InIt2,_OutIt,_Fn)': 5개의 인수가 필요합니다. 3개가 제공되었습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(3449,21):
+  또는       '_OutIt std::transform(const _InIt,const _InIt,_OutIt,_Fn)'
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\analysis.cpp(67,5):
+  	'_OutIt std::transform(const _InIt,const _InIt,_OutIt,_Fn)': 4개의 인수가 필요합니다. 3개가 제공되었습니다.
+  
+  grade.cpp
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\grade.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(74,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'Vec<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,18): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,21): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,30): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C3861: 'val': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C2065: 'val': 선언되지 않은 식별자입니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/grade.cpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\main.cpp(1,1): warning C4828: 파일에 0xb0f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(74,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'Vec<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,18): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,21): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,30): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C3861: 'val': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C2065: 'val': 선언되지 않은 식별자입니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/main.cpp'을(를) 컴파일하는 중)
+  
+  median.cpp
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(74,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'Vec<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,18): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,21): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,30): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C3861: 'val': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C2065: 'val': 선언되지 않은 식별자입니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/median.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(11,12): error C2039: 'Vec': 'std'의 멤버가 아닙니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\string(23,1):
+  'std' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(11,1): error C2873: 'Vec': using 선언에서 기호를 사용할 수 없습니다.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(26,27): error C2039: 'end': 'Vec<double>'의 멤버가 아닙니다.
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(18,5):
+  'Vec<double>' 선언을 참조하십시오.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(26,5): error C2672: 'sort': 일치하는 오버로드된 함수가 없습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(8077,19):
+  'void std::sort(const _RanIt,const _RanIt,_Pr)'일 수 있습니다.
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(26,5):
+  	'void std::sort(const _RanIt,const _RanIt,_Pr)': 3개의 인수가 필요합니다. 1개가 제공되었습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(8085,19):
+  또는       'void std::sort(const _RanIt,const _RanIt)'
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\median.cpp(26,5):
+  	'void std::sort(const _RanIt,const _RanIt)': 2개의 인수가 필요합니다. 1개가 제공되었습니다.
+  
+  Student_info.cpp
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Student_info.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,15):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(74,2):
+  	컴파일되는 클래스 템플릿 인스턴스화 'Vec<T>'에 대한 참조를 확인하세요.
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(44,18): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,21): error C2059: 구문 오류: '<parameter-list>'
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(45,30): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C3861: 'val': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\Vec.h(129,34): error C2065: 'val': 선언되지 않은 식별자입니다.
+  (소스 파일 '../12-abstract-data-types-jaeremin/Chp11/Student_info.cpp'을(를) 컴파일하는 중)
+  
+  util.cpp
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\util.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\com316\Desktop\jm_cpp\12-abstract-data-types-jaeremin\Chp11\util.cpp(7,10): error C1083: 포함 파일을 열 수 없습니다. 'Vec': No such file or directory
+  코드를 생성하고 있습니다...
